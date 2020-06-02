@@ -1,2 +1,75 @@
-
 /*  Put your CSS Here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: -webkit-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+  border-radius: 6px;
+  height: 1500px;
+  max-width: 150%;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+img {
+  width: 320px;
+  height: 320px;
+  /* object-fit: cover; */
+}
+
+/* .cover {
+  object-fit: cover;
+} */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border-radius: 8%;
+}
+
+h3 {
+  margin: 10px;
+}
+.form {
+  /* display: flex; */
+  background-color: black;
+  max-width: 320px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+}
+button {
+  background-color: rgb(18, 219, 18);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.submission {
+  margin: 10px;
+  align-items: left;
+}
+
+@media (min-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+  }
+
+  img {
+    height: 100%;
+  }
+
+  .form {
+    border-radius: 10px;
+    padding: 30px;
+  }
+}
